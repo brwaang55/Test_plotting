@@ -1,7 +1,6 @@
 library(rgl)
 library(Rvcg)
 library(FNN)
-setwd('/Users/brucewang/Dropbox (DataPlusMath)/Data + Experiments Tim Sudijono/Test_plotting/')
 
 #Function for computing the barycenter/centroid of a face.
 compute_face_centroid=function(vertices,face){
