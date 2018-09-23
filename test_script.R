@@ -1,8 +1,7 @@
 library(rgl)
 library(Rvcg)
 library(FNN)
-pwd=getwd()
-setwd(pwd)
+setwd('/Users/brucewang/Dropbox (DataPlusMath)/Data + Experiments Tim Sudijono/Test_plotting/')
 
 #Function for computing the barycenter/centroid of a face.
 compute_face_centroid=function(vertices,face){
@@ -55,3 +54,4 @@ colors[vert2]='red'
 file$material=list(color=colors)
 plot3d(file)
 rgl.points(matrix(file$vb[-4,2],ncol = 3),size=10,color='blue')
+
